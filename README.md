@@ -54,24 +54,24 @@ terminal yang sama juga tersimpan sebagai teks di folder `outputs/`.
 
 ### Praktik 1 — Baca CSV Mahasiswa
 
-![Hasil Praktik 1](screenshots/hasil_praktik1.png)
+![Hasil Praktik 1](screenshots/hasil_praktik1_cmd.png)
 
 ### Praktik 2 — Custom Exception Perpustakaan
 
-![Hasil Praktik 2](screenshots/hasil_praktik2.png)
+![Hasil Praktik 2](screenshots/hasil_praktik2_cmd.png)
 
 ### Praktik 3 — Logging SI Akademik
 
-![Hasil Praktik 3](screenshots/hasil_praktik3.png)
+![Hasil Praktik 3](screenshots/hasil_praktik3_cmd.png)
 
 ### Praktik 4 — Unit Test Akademik
 
-![Hasil Praktik 4](screenshots/hasil_praktik4.png)
+![Hasil Praktik 4](screenshots/hasil_praktik4_cmd.png)
 
 ### Praktik 5 — Refactoring Code Smell
 
-![Hasil Praktik 5](screenshots/hasil_praktik5.png)
+![Hasil Praktik 5](screenshots/hasil_praktik5_cmd.png)
 
 ### Praktik 6 — Demo Pre-commit Hooks
 
-![Hasil Praktik 6](screenshots/hasil_praktik6.png)
+![Hasil Praktik 6](screenshots/hasil_praktik6_cmd.png)

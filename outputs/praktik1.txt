@@ -1,0 +1,19 @@
+=== Kasus 1: file valid ===
+Ringkasan: 5 mahasiswa, rata-rata IPK 3.72
+File mahasiswa.csv ditutup (finally).
+  20241320004 - Muhammad Dzikri Sagara - IPK 3.75
+  20241320030 - Muhammad Alamsyah - IPK 3.6
+  20241320038 - Fakhry Ahmad Fauzan - IPK 3.8
+  20241320039 - Jilan Jalilah - IPK 3.9
+  20241320034 - Keysha Aprilya Salsabila - IPK 3.55
+
+=== Kasus 2: file tidak ada ===
+File tidak ditemukan: tidak_ada.csv
+
+=== Kasus 3: IPK tidak valid ===
+Data tidak valid: could not convert string to float: 'tiga koma lima'
+File mahasiswa_ipk_salah.csv ditutup (finally).
+
+=== Kasus 4: CSV rusak (tanda kutip tidak ditutup) ===
+File CSV rusak: unexpected end of data
+File mahasiswa_rusak.csv ditutup (finally).

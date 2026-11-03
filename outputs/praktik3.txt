@@ -1,0 +1,12 @@
+WARNING: Penggunaan memori mencapai 85%
+ERROR: Gagal mengirim notifikasi email ke dosen@univ.ac.id
+CRITICAL: Koneksi database utama terputus!
+
+--- Verifikasi ---
+Konsol di atas hanya menampilkan WARNING, ERROR, dan CRITICAL
+(pesan DEBUG dan INFO tidak muncul di konsol).
+File log yang terbentuk: si_akademik.log, si_akademik.log.1, si_akademik.log.2
+Isi si_akademik.log (3 baris terakhir dari rotasi):
+  2026-11-03 09:37:00 | WARNING  | si_akademik | Penggunaan memori mencapai 85%
+  2026-11-03 09:37:00 | ERROR    | si_akademik | Gagal mengirim notifikasi email ke dosen@univ.ac.id
+  2026-11-03 09:37:00 | CRITICAL | si_akademik | Koneksi database utama terputus!

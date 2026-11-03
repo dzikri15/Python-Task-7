@@ -1,0 +1,40 @@
+File contoh_kotor.py (sengaja melanggar standar):
+---
+import sys
+import os
+def hitung(a,b): return a+b
+x = hitung( 2,3 )
+print( "hasil:",x )
+---
+Pelanggaran yang dikandungnya:
+  - import tidak terurut (sys sebelum os) -> ditolak isort
+  - spasi tidak konsisten, def satu baris -> ditolak black
+  - (flake8 juga akan menandai pelanggaran gaya yang sama)
+
+Hasil pengecekan tool (mode --check, tanpa mengubah file):
+  [black] tidak terinstall di mesin ini.
+        -> pada mesin dengan pre-commit, hook black akan MENOLAK commit berisi contoh di atas.
+  [flake8] tidak terinstall di mesin ini.
+        -> pada mesin dengan pre-commit, hook flake8 akan MENOLAK commit berisi contoh di atas.
+  [isort] tidak terinstall di mesin ini.
+        -> pada mesin dengan pre-commit, hook isort akan MENOLAK commit berisi contoh di atas.
+
+Versi bersih setelah black + isort (yang lolos hook):
+---
+import os
+import sys
+
+
+def hitung(a, b):
+    return a + b
+
+
+x = hitung(2, 3)
+print("hasil:", x)
+---
+Cara kerja gerbangnya: hook berjalan SEBELUM commit dibuat.
+Kalau satu hook gagal, commit dibatalkan sampai kode diperbaiki,
+sehingga kode yang tidak memenuhi standar tidak pernah masuk
+ke repositori — reviewer pun fokus ke logika, bukan ke gaya.
+
+File konfigurasi yang dipakai: .pre-commit-config.yaml

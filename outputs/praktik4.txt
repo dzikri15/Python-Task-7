@@ -1,0 +1,22 @@
+test_kosong (__main__.TestHitungIPK.test_kosong) ... ok
+test_normal (__main__.TestHitungIPK.test_normal) ... ok
+test_sks_nol (__main__.TestHitungIPK.test_sks_nol) ... ok
+test_batas_a (__main__.TestKonversiNilaiHuruf.test_batas_a) ... ok
+test_batas_b (__main__.TestKonversiNilaiHuruf.test_batas_b) ... ok
+test_batas_b_plus (__main__.TestKonversiNilaiHuruf.test_batas_b_plus) ... ok
+test_batas_c (__main__.TestKonversiNilaiHuruf.test_batas_c) ... ok
+test_batas_c_plus (__main__.TestKonversiNilaiHuruf.test_batas_c_plus) ... ok
+test_batas_d (__main__.TestKonversiNilaiHuruf.test_batas_d) ... ok
+test_batas_e (__main__.TestKonversiNilaiHuruf.test_batas_e) ... ok
+test_bukan_angka (__main__.TestKonversiNilaiHuruf.test_bukan_angka) ... ok
+test_lebih_dari_100 (__main__.TestKonversiNilaiHuruf.test_lebih_dari_100) ... ok
+test_negatif (__main__.TestKonversiNilaiHuruf.test_negatif) ... ok
+test_benar (__main__.TestValidasiNIM.test_benar) ... ok
+test_kosong (__main__.TestValidasiNIM.test_kosong) ... ok
+test_mengandung_huruf (__main__.TestValidasiNIM.test_mengandung_huruf) ... ok
+test_panjang_salah (__main__.TestValidasiNIM.test_panjang_salah) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.001s
+
+OK

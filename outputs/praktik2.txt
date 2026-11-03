@@ -1,0 +1,19 @@
+=== Kasus 1: peminjaman berhasil ===
+'Algoritma dan Pemrograman' berhasil dipinjam oleh Muhammad Dzikri Sagara
+
+=== Kasus 2: buku tidak ditemukan ===
+Gagal: Buku 'B999' tidak ditemukan di katalog
+
+=== Kasus 3: buku tidak tersedia (stok 0) ===
+Gagal: Buku 'Basis Data' (B002) sedang tidak tersedia
+
+=== Kasus 4: anggota tidak terdaftar ===
+Gagal: Anggota 'A999' tidak terdaftar
+
+=== Kasus 5: ditangkap di level base class ===
+Gagal (ditangkap sebagai PerpustakaanError): Anggota 'A999' tidak terdaftar
+
+Stok akhir:
+  B001 - Algoritma dan Pemrograman: 1
+  B002 - Basis Data: 0
+Total peminjaman tercatat: 1

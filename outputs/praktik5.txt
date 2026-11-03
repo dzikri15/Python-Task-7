@@ -1,0 +1,24 @@
+Code smell yang diidentifikasi pada kode lama:
+  1. Magic Number   : status == 3 tanpa penjelasan
+  2. Duplicate Code : validasi NIM di dua fungsi
+  3. Long Method    : satu fungsi mengurus 4 tanggung jawab
+  4. Deep Nesting   : if predikat bertingkat 4 level
+  5. Dead Code      : fungsi_tidak_terpakai() tidak dipanggil
+
+Refactoring yang diterapkan:
+  - Replace with Constant (STATUS_LULUS, BATAS_BEASISWA)
+  - Extract Method (validasi_nim, hitung_rata_rata,
+    tentukan_predikat, cek_beasiswa)
+  - Guard Clause (continue untuk data tidak valid)
+  - Remove Dead Code + docstring dan type hints (PEP 8)
+
+Hasil kode lama:
+  {'nim': '2024132000', 'nama': 'Dzikri', 'rata': 87.67, 'predikat': 'A', 'beasiswa': True}
+  {'nim': '2024132030', 'nama': 'Alamsyah', 'rata': 72.33, 'predikat': 'B', 'beasiswa': False}
+  {'nim': '2024132038', 'nama': 'Fakhry', 'rata': 60.0, 'predikat': 'C', 'beasiswa': False}
+Hasil kode baru (refactoring):
+  {'nim': '2024132000', 'nama': 'Dzikri', 'rata': 87.67, 'predikat': 'A', 'beasiswa': True}
+  {'nim': '2024132030', 'nama': 'Alamsyah', 'rata': 72.33, 'predikat': 'B', 'beasiswa': False}
+  {'nim': '2024132038', 'nama': 'Fakhry', 'rata': 60.0, 'predikat': 'C', 'beasiswa': False}
+
+Hasil sebelum dan sesudah sama: True

@@ -75,35 +75,3 @@ terminal yang sama juga tersimpan sebagai teks di folder `outputs/`.
 ### Praktik 6 — Demo Pre-commit Hooks
 
 ![Hasil Praktik 6](screenshots/hasil_praktik6.png)
-
-## Struktur Repositori
-
-```
-.
-├── README.md
-├── soal_teori.md
-├── praktik1_csv_mahasiswa.py
-├── praktik2_perpustakaan.py
-├── praktik3_logging.py
-├── praktik4_test_akademik.py
-├── praktik5_refactoring.py
-├── praktik6_demo_precommit.py
-├── .pre-commit-config.yaml
-├── mahasiswa.csv
-├── mahasiswa_ipk_salah.csv
-├── mahasiswa_rusak.csv
-├── outputs/
-│   ├── praktik1.txt
-│   ├── praktik2.txt
-│   ├── praktik3.txt
-│   ├── praktik4.txt
-│   ├── praktik5.txt
-│   └── praktik6.txt
-└── screenshots/
-    ├── hasil_praktik1.png
-    ├── hasil_praktik2.png
-    ├── hasil_praktik3.png
-    ├── hasil_praktik4.png
-    ├── hasil_praktik5.png
-    └── hasil_praktik6.png
-```
